@@ -1,0 +1,181 @@
+<!--01) Formulário de contato simples 
+Objetivo: Criar um formulario de contato com campos básicos como nome, email, telefone e mensagem-->
+
+<!DOCTYPE html>
+<form action="send.php" method="post">
+    
+
+    <title> Form </title>
+
+    <fieldset>
+    <legend><h3> Dados Pessoais </h3></legend>
+
+    <label for="Primeiro Nome"> Primeiro Nome:</label><br>
+    <input type="text" id="Primeiro Nome" name="Primeiro Nome" required><br><br>
+
+    <label for="Nome"> Último Nome:</label><br>
+    <input type="text" id="Nome" name="Nome" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="Telefone">Telefone:</label><br>
+    <input type="tel" id="Telefone" name="Telefone" required><br><br>
+
+    <label for="estadoCivel">Estado Civil:</label><br>
+    <select id="estadoCivel" name="Estado Civil">
+    <option id=" estadoCivel">Casado</option><br>
+    <option id=" estadoCivel">Solteiro</option><br> 
+    <option id=" estadoCivel">Separado</option><br>
+    <option id=" estadoCivel">Viúvo</option></select><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Endereço</h3></legend>
+
+    <label for="Cidade">Cidade:</label><br>
+    <input type="text" id="Cidade" name="Cidade" required><br><br>
+
+    <label for="Bairro">Bairro:</label><br>
+    <input type="text" id="Bairro" name="Bairro" required><br><br>
+
+    <label for="Rua">Rua:</label><br>
+    <input type="text" id="Rua" name="Rua" required><br><br>
+
+    <label for="Complemento">Complemento:</label><br>
+    <input type="text" id="Complemento" name="Complemento" required><br><br>
+
+    <label for="N°">N°:</label><br>
+    <input type="number" id="N°" name="N°" required><br><br>
+
+    <label for="CEP">CEP:</label><br>
+    <input type="number" id="CEP" name="CEP" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Dados Financeiros</h3></legend>
+
+    <label for="Tipo de Conta">Tipo de Conta:</label><br>
+    <input type="text" id="Tipo de Conta" name="Tipo de Conta" required><br><br>
+
+    <label for="N° da Conta">N° da Conta:</label><br>
+    <input type="number" id="N° da Conta" name="N° da Conta" required><br><br>
+
+    <label for="N° da Agência">N° da Agência:</label><br>
+    <input type="number" id="N° da Agência" name="N° da Agência" required><br><br>
+
+    <label for="Renda Mensal">Renda Mensal:</label><br>
+    <input type="number" id="Renda Mensal" name="Renda Mensal" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Dados Comerciais</h3></legend>
+
+    <label for="Nome da Empresa">Nome da Empresa:</label><br>
+    <input type="text" id="Nome da Empresa" name="Nome da Empresa" required><br><br>
+
+    <label for="Nome Fantasia">Nome Fantasia:</label><br>
+    <input type="text" id="Nome Fantasia" name="Nome Fantasia" required><br><br>
+
+    <label for="Endereço da Empresa">Endereço da Empresa:</label><br>
+    <input type="text" id="Endereço da Empresa" name="Endereço da Empresa" required><br><br>
+
+    <label for="CNPJ">CNPJ:</label><br>
+    <input type="number" id="CNPJ" name="CNPJ" required><br><br>
+
+    <label for="Telefone">Telefone:</label><br>
+    <input type="tel" id="Telefone" name="Telefone" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Cadastro de Veículo</h3></legend>
+
+    <label for="Modelo do Veículo">Modelo do Veículo:</label><br>
+    <input type="text" id="Modelo do Veículo" name="Modelo do Veículo" required><br><br>
+
+    <label for="Cor do Veículo">Cor do Veículo:</label><br>
+    <input type="text" id="Cor do Veículo" name="Cor do Veículo" required><br><br>
+
+    <label for="Placa">Placa:</label><br>
+    <input type="number" id="Placa" name="Placa" required><br><br>
+
+    <label for="RENAVAN">RENAVAN:</label><br>
+    <input type="text" id="RENAVAN" name="RENAVAN" required><br><br>
+
+    <label for="Ano de Lançamento">Ano de Lançamento:</label><br>
+    <input type="number" id="Ano de Lançamento" name="Ano de Lançamento" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Cadastro de Imóvel</h3></legend>
+
+    <label for="Tipo de Imóvel">Tipo de Imóvel:</label><br>
+    <input type="text" id="Tipo de Imóvel" name="Tipo de Imóvel" required><br><br>
+
+    <label for="Cidade">Cidade:</label><br>
+    <input type="text" id="Cidade" name="Cidade" required><br><br>
+
+    <label for="Bairro">Bairro:</label><br>
+    <input type="text" id="Bairro" name="Bairro" required><br><br>
+
+    <label for="N° do Imóvel">N° do Imóvel:</label><br>
+    <input type="number" id="N° do Imóvel" name="N° do Imóvel" required><br><br>
+
+    <label for="CEP">CEP:</label><br>
+    <input type="number" id="CEP" name="CEP" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Dados Cônjuge</h3></legend>
+
+    <label for="Nome"> Primeiro Nome:</label><br>
+    <input type="text" id="Nome" name="Nome" required><br><br>
+
+    <label for="Nome"> Último Nome:</label><br>
+    <input type="text" id="Nome" name="Nome" required><br><br>
+
+    <label for="Idade do Cônjuge">Idade do Cônjuge:</label><br>
+    <input type="number" id="Idade do Cônjuge" name="Idade do Cônjuge" required><br><br>
+
+    <label for="CPF do Cônjuge">CPF do Cônjuge:</label><br>
+    <input type="number" id="CPF do Cônjuge" name="CPF do Cônjuge" required><br><br>
+
+    <label for="Telefone do Cônjuge">Telefone do Cônjuge:</label><br>
+    <input type="tel" id="Telefone do Cônjuge" name="Telefone do Cônjuge" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Dados dos Filhos</h3></legend>
+
+    <label for="Nome"> Nome:</label><br>
+    <input type="text" id="Nome" name="Nome" required><br><br>
+
+    <label for="Idade">Idade:</label><br>
+    <input type="number" id="Idade" name="Idade" required><br><br>
+
+    <label for="CPF">CPF:</label><br>
+    <input type="number" id="CPF" name="CPF" required><br><br>
+     
+    <label for="Nome do Pai">Nome do Pai:</label><br>
+    <input type="text" id="Nome do Pai" name="Nome do Pai" required><br><br>
+
+    <label for="Nome da Mãe">Nome da Mãe:</label><br>
+    <input type="text" id="Nome da Mãe" name="Nome da Mãe" required><br><br></fieldset>
+
+    <fieldset>
+    <legend><h3>Dados Escolares</h3></legend>
+
+    <label for="Nome da Escola"> Nome da Escola:</label><br>
+    <input type="text" id="Nome da Escola" name="Nome da Escola" required><br><br>
+
+    <label for="Categoria">Categoria:</label><br>
+    <input type="text" id="Categoria" name="Categoria" required><br><br>
+
+    <label for="Endereço da Escola">Endereço da Escola:</label><br>
+    <input type="text" id="Endereço da Escola" name="Endereço da Escola" required><br><br>
+
+    <label for="Grau Escolar">Grau Escolar:</label><br>
+    <input type="text" id="Grau Escolar" name="Grau Escolar" required><br><br>
+
+    <label for="Telefone do Cônjuge">Telefone do Cônjuge:</label><br>
+    <input type="tel" id="Telefone do Cônjuge" name="Telefone do Cônjuge" required><br><br></fieldset><br>
+
+    
+
+    <button type="submit">Enviar</button>
+    
+
+</label>

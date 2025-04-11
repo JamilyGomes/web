@@ -1,0 +1,49 @@
+h1 {
+    color: black;
+    text-align: center;
+}
+
+body {
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+p#Paragrafo {
+    color: deeppink;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    margin-top: 50px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#yesButton {
+    background-color: #4CAF50; /* Verde para o botão YES */
+    color: white;
+}
+#noButton {
+    background-color: #ff4444; /* Vermelho para o botão NO */
+    color: white;
+    position: absolute; /* Permite o movimento */
+    transition: all 0.2s ease; /* Suaviza o movimento */
+}
+

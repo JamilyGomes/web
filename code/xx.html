@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm sorry</title>
+</head>
+<body>
+    <h1>please forgive me?</h1>
+    <button id="yesButton" onclick="window.location.href='https://www.exemplo.com'">YES</button>
+    <button id="noButton" onmouseover="moverBotao()">NO</button>
+
+    <script>
+        function moverBotao() {
+            const botao = document.getElementById('noButton');
+            const maxX = window.innerWidth - botao.offsetWidth;  // Limite horizontal
+            const maxY = window.innerHeight - botao.offsetHeight; // Limite vertical
+            
+            // Gera novas posições aleatórias
+            const novoX = Math.floor(Math.random() * maxX);
+            const novoY = Math.floor(Math.random() * maxY);
+            
+            // Aplica as novas posições
+            botao.style.left = novoX + 'px';
+            botao.style.top = novoY + 'px';
+        }
+    </script>
+</body>
+</html>
