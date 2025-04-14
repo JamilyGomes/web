@@ -1,0 +1,40 @@
+.carrossel-container {
+    width: 1900px; /* Novo tamanho da moldura */
+    margin: auto; /* Centraliza na página */
+}
+
+.carrossel {
+    width: 1900px; /* Tamanho da moldura do carrossel */
+    height: 600px;
+    margin: auto; /* Centraliza na página */
+    overflow: hidden; /* Esconde as imagens que não cabem */
+}
+
+.slides {
+    display: flex; /* Coloca as imagens lado a lado */
+    width: 5700px; /* 2 imagens x 500px = 1000px */
+    transition: transform 0.5s ease; /* Faz a transição suave */
+}
+
+.slides img {
+    width: 1900px; /* Tamanho de cada imagem */
+    height: 600px;
+}
+
+/* Classes pra mudar a imagem */
+.slides.pos1 { transform: translateX(0); }
+.slides.pos2 { transform: translateX(-1900px); }
+.slides.post3 { transform: translateX(-5700px);}
+
+button {
+    position: absolute;
+    top: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #c43f3f;
+    color: white;
+}

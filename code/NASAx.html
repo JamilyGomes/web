@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA</title>
+    <link rel="stylesheet" href="styleNASA.css">
+</head>
+<body>
+    <div class="carrossel">
+        <div class="slides" id="slides">
+            <img src="../img/nasax.webp" alt="Imagem NASA 1">
+            <img src="../img/nasa2.webp" alt="Imagem NASA 2">
+            <img src="../img/lua-2.webp" alt="Imagem NASA 3">
+        </div>
+    </div>
+
+    <a  href="https://science.nasa.gov/citizen-science/"><button>Find Your Project</button></a>
+
+    <script>
+        let posicao = 1; // Começa na primeira imagem
+
+        function proxima() {
+            posicao++;
+            if (posicao > 3) posicao = 1; // Volta pra primeira se passar da segunda
+            atualizar();
+        }
+
+        function anterior() {
+            posicao--;
+            if (posicao < 1) posicao = 3; // Vai pra segunda se for antes da primeira
+            atualizar();
+        }
+
+        function atualizar() {
+            let slides = document.getElementById('slides');
+            slides.className = 'slides pos' + posicao; // Muda a classe pra pos1 ou pos2
+        }
+        setInterval(proxima, 6000); // Muda a cada 3 segundos
+    </script>
+</body>
+</html>
