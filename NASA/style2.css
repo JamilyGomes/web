@@ -1,0 +1,59 @@
+button {
+    position: absolute;
+    top: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #c43f3f;
+    color: white;
+}
+
+#FindButton {
+    background-color: #c43f3f; 
+    color: white;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+p{
+    color: white;
+    position: absolute;
+    padding: 10px;
+    top: 60px;
+}
+
+
+.img1{
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+    z-index: -1;
+    position: relative;
+
+}
+
+.text1{
+    position: absolute;
+    top: 10px;
+
+}
+
+#x{
+    margin-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
