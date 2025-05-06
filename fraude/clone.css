@@ -1,0 +1,47 @@
+.teorias-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.teoria-item {
+    border: 1px solid;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.teoria-titulo {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.teoria-relatividade {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    font-size: 15px;
+}
+
+.teoria-relatividade > h4 {
+    padding-left: 18%;
+    padding-right: 16%;
+    text-align: left;
+}
+
+#img-relatividade {
+    width: 400px;
+}
+
+#img-relatividade2, #img-tudo {
+    width: 300px;
+}
+
+#img-quantica {
+    float: left;
+    width: 50px;
+    height: 50px;
+}

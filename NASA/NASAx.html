@@ -39,17 +39,17 @@
     <a  href="https://science.nasa.gov/citizen-science/"><button class="Find">Find Your Project</button></a>
 
     <script>
-        let posicao = 1; // Começa na primeira imagem
+        let posicao = 1; 
 
         function proxima() {
             posicao++;
-            if (posicao > 3) posicao = 1; // Volta pra primeira se passar da segunda
+            if (posicao > 3) posicao = 1; 
             atualizar();
         }
 
         function anterior() {
             posicao--;
-            if (posicao < 1) posicao = 3; // Vai pra segunda se for antes da primeira
+            if (posicao < 1) posicao = 3; 
             atualizar();
         }
 
